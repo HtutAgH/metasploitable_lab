@@ -1,0 +1,15 @@
+<TARGET_IP> = 192.168.56.101
+
+metasploitable-labs/
+├─ README.md
+├─ 01-vsftpd-v2.3.4-backdoor/
+│  ├─ README.md           # step-by-step writeup for this exercise (sanitized)
+│  ├─ commands.txt        # commands you ran (sanitized)
+│  ├─ output/             # small sanitized outputs (e.g., nmap summary, head of files)
+│  │   ├─ nmap_full.txt
+│  │   └─ phpmyadmin_head.txt
+│  ├─ screenshots/        # sanitized screenshots (no sensitive strings in images)
+│  └─ remediation.md      # how to fix / secure service
+├─ templates/
+│  └─ lab_report_template.md
+└─ .gitignore
